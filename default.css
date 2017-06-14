@@ -309,7 +309,7 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		background: #C73399 url(images/overlay.png) repeat;
+		background: #C73399  #64ABD1 url(images/overlay.png) repeat;
 	}
 
 	#header
@@ -752,4 +752,26 @@
 		color: #FFFFFF;
 	}
 	
-	
+	.productList li {
+	position: relative;
+	float:right;
+	width: 128px;
+	height: 200px;
+	border:1px solid #000;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding-right:5px;
+	padding-left: 5px;
+}
+
+.productList img {width: 100%;}
+
+.productList .sale {
+	position:absolute;
+	top:0;
+	left:0;
+	background:red;
+	color:#fff;
+	padding: 8px;
+	}
