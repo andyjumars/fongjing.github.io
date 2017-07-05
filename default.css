@@ -1,6 +1,19 @@
 	* {box-sizing: border}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 	html, body
 	{
 		height: 100%;
@@ -17,6 +30,10 @@
 		color: rgba(0,0,0,.6);
 	}
 	
+	img {
+		height: auto;
+		max-width: 100%;
+	}
 	
 	h1, h2, h3
 	{
