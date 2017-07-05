@@ -1,3 +1,6 @@
+	* {box-sizing: border}
+
+
 	html, body
 	{
 		height: 100%;
@@ -56,6 +59,13 @@
 	{
 		margin: 0px auto;
 		width: 1200px;
+
+	}
+	
+	.container a
+	{
+		margin
+
 	}
 	
 
@@ -251,8 +261,23 @@
 /*********************************************************************************/
 /* Button Style                                                                  */
 /*********************************************************************************/
+    .button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0.8em 2em;
+		background: #ffff;
+		line-height: 1.8em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 1em;
+		color: #FFF;
+		border-radius: 10px;
+	}
+	
 
-	.button
+
+	.button1
 	{
 		display: inline-block;
 		margin-top: 2em;
@@ -263,6 +288,7 @@
 		text-decoration: none;
 		font-size: 1em;
 		color: #FFF;
+		border-radius: 10px;
 	}
 	
 	.button:before
@@ -302,6 +328,24 @@
 		color: #6F6F6F#;
 	}
 
+	.title img {
+		
+		box-shadow:10px 10px 30px grey;
+		border-radius: 20px;
+	}
+
+
+#ad {
+		width: 150px;
+		height: 150px;
+		color:black;
+		position:fixed;
+		left:0;
+
+
+	}
+
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -316,6 +360,8 @@
 	{
 		text-align: center;
 	}
+
+
 
 /*********************************************************************************/
 /* Logo                                                                          */
@@ -353,6 +399,11 @@
 		color: rgba(255,255,255,0.8);
 	}
 	
+	#logo img h1 a {
+		position:absolute;
+		
+
+	}
 	
 
 /*********************************************************************************/
@@ -444,6 +495,7 @@
 /*********************************************************************************/
 /* Welcome                                                                       */
 /*********************************************************************************/
+    
 
 	#welcome
 	{
@@ -467,6 +519,16 @@
 	{
 	}
 
+	
+	
+	.machine img {
+		width:800px;
+		height: 500px;
+		box-shadow:10px 10px 30px grey;
+		border-radius: 20px;
+		margin-top:30px;
+
+	}
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
@@ -592,6 +654,9 @@
 /*********************************************************************************/
 /* Portfolio                                                                     */
 /*********************************************************************************/
+  .box img {
+  	width: 300px;
+  	height: 300px;  }
 
 	#portfolio
 	{
@@ -689,7 +754,10 @@
 		float: left;
 		width: 320px;
 		padding: 80px 40px 80px 40px;
+
 	}
+
+
 	
 	#three-column .title
 	{
@@ -752,26 +820,4 @@
 		color: #FFFFFF;
 	}
 	
-	.productList li {
-	position: relative;
-	float:right;
-	width: 128px;
-	height: 200px;
-	border:1px solid #000;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-bottom: 10px;
-	padding-right:5px;
-	padding-left: 5px;
-}
-
-.productList img {width: 100%;}
-
-.productList .sale {
-	position:absolute;
-	top:0;
-	left:0;
-	background:red;
-	color:#fff;
-	padding: 8px;
-	}
+	
