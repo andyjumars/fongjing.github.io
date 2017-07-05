@@ -20,7 +20,7 @@
 	
 	h1, h2, h3
 	{
-		margin: 0;
+		margin: 0 auto;
 		padding: 0;
 		color: #404040;
 	}
@@ -58,7 +58,7 @@
 
 	.container
 	{
-		margin: 0px auto;
+		margin: 0 auto;
 		width: 1200px;
 
 	}
@@ -223,7 +223,7 @@
 
 	ul.contact
 	{
-		margin: 0;
+		margin: 0 auto;
 		padding: 2em 0em 0em 0em;
 		list-style: none;
 	}
@@ -238,7 +238,7 @@
 	ul.contact li span
 	{
 		display: none;
-		margin: 0;
+		margin: 0 auto;
 		padding: 0;
 	}
 	
@@ -649,7 +649,7 @@
 	#newsletter .content
 	{
 		width: 600px;
-		margin: 0px auto;
+		margin: 0 auto;
 	}
 	
 /*********************************************************************************/
@@ -735,7 +735,7 @@
 	{
 		position: relative;
 		display: block;
-		margin: 0px auto 0.80em auto;
+		margin: 0 auto 0.80em auto;
 		background: none;
 		line-height: 150px;
 		font-size: 4em;
@@ -785,7 +785,7 @@
 	
 	ul.tools
 	{
-		margin: 0;
+		margin: 0 auto;
 		padding: 0em 0em 0em 0em;
 		list-style: none;
 	}
@@ -800,7 +800,7 @@
 	ul.tools li span
 	{
 		display: none;
-		margin: 0;
+		margin: 0 auto;
 		padding: 0;
 	}
 	
