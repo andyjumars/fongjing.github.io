@@ -44,3 +44,38 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.col-sm-8 {
+    font-size:14px;
+    font-weight: bold;
+}
+
+.row img {
+       width: 300px;
+       height: 300px;
+}
+
+.row  p {
+    font-weight: 700;
+
+}
+
+.col-sm-4 h2 br abbr{
+    font-weight: bold;
+}
+
+#ad {
+        width: 150px;
+        height: 150px;
+        color:black;
+        position:fixed;
+        right:0;
+
+
+
+    }
+
+#ad a {
+    color: red;
+    font-weight: bold;
+}
