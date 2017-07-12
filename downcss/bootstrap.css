@@ -6758,10 +6758,17 @@ button.close {
 
 
 #ad {
-        width: 150px;
+        width: 50px;
         height: 150px;
         color:black;
         position:fixed;
         left:0;
 
+
+
     }
+
+#ad a {
+    color: red;
+    font-weight: bold;
+}
