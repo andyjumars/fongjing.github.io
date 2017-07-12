@@ -6758,15 +6758,28 @@ button.close {
 
 
 #ad {
-        width: 50px;
+          width: 150px;
         height: 150px;
         color:black;
         position:fixed;
+        float:left;
         left:0;
+        top: 50%;  /*設置垂直位置*/
+    left: -10px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  /*背景顏色*/
+ padding: 10px 20px;
+    border-radius: 10px;  /*圓角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+
 
 
 
     }
+
+.clearfix {
+    clear: both;
+}
 
 #ad a {
     color: red;
